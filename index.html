@@ -1,241 +1,35 @@
 <!DOCTYPE html>
-<html lang="english">
+<html lang="ko">
   <head>
-    <title>exported project</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta charset="utf-8" />
+    <!-- 웹사이트가 트위터로 공유될 때 카드 형식으로 표시되는 방식을 지정 -->
+    <!-- "summary_large_image": 큰 이미지와 함께 요약을 포함하는 카드를 표시 -->
     <meta property="twitter:card" content="summary_large_image" />
-
-    <style data-tag="reset-style-sheet">
-      html {
-        line-height: 1.15;
-      }
-      body {
-        margin: 0;
-      }
-      * {
-        box-sizing: border-box;
-        border-width: 0;
-        border-style: solid;
-      }
-      p,
-      li,
-      ul,
-      pre,
-      div,
-      h1,
-      h2,
-      h3,
-      h4,
-      h5,
-      h6,
-      figure,
-      blockquote,
-      figcaption {
-        margin: 0;
-        padding: 0;
-      }
-      button {
-        background-color: transparent;
-      }
-      button,
-      input,
-      optgroup,
-      select,
-      textarea {
-        font-family: inherit;
-        font-size: 100%;
-        line-height: 1.15;
-        margin: 0;
-      }
-      button,
-      select {
-        text-transform: none;
-      }
-      button,
-      [type="button"],
-      [type="reset"],
-      [type="submit"] {
-        -webkit-appearance: button;
-      }
-      button::-moz-focus-inner,
-      [type="button"]::-moz-focus-inner,
-      [type="reset"]::-moz-focus-inner,
-      [type="submit"]::-moz-focus-inner {
-        border-style: none;
-        padding: 0;
-      }
-      button:-moz-focus,
-      [type="button"]:-moz-focus,
-      [type="reset"]:-moz-focus,
-      [type="submit"]:-moz-focus {
-        outline: 1px dotted ButtonText;
-      }
-      a {
-        color: inherit;
-        text-decoration: inherit;
-      }
-      input {
-        padding: 2px 4px;
-      }
-      img {
-        display: block;
-      }
-      html {
-        scroll-behavior: smooth;
-      }
-    </style>
-    <style data-tag="default-style-sheet">
-      html {
-        font-family: Inter;
-        font-size: 16px;
-      }
-
-      body {
-        font-weight: 400;
-        font-style: normal;
-        text-decoration: none;
-        text-transform: none;
-        letter-spacing: normal;
-        line-height: 1.15;
-        color: var(--dl-color-gray-black);
-        background-color: var(--dl-color-gray-white);
-      }
-    </style>
-    <link
-      rel="stylesheet"
-      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"
-      data-tag="font"
-    />
-    <link rel="stylesheet" href="./style.css" />
+    <title>GA PlatForm1.0v</title>
   </head>
   <body>
-    <div>
-      <link href="./index.css" rel="stylesheet" />
+    <div class="login-wrapper">
+      <h2>로그인</h2>
+      <h4>아직 회원이 아니신가요?</h4>
+      <h4 id="blue_name">회원가입 하러가기 !</h4>
+      <form method="get" action="calendar.html" id="login-form">
+        <span class="login-subtitle">User Number</span>
+        <input type="text" name="userName" placeholder="사원번호 입력하기" />
 
-      <div class="wireframe-container">
-        <div class="wireframe-wireframe">
-          <div class="wireframe-login9">
-            <span class="wireframe-text"><span>SeGArvice NAME</span></span>
-            <div class="wireframe-frame337">
-              <img src="img/01.jpeg" class="wireframe-image36449961" />
-              <div class="wireframe-group41">
-                <div class="wireframe-group34">
-                  <span class="wireframe-text02 4"><span>로그인</span></span>
-                  <div>
-                    <span class="wireframe-text04">
-                      <span>아직 회원이 아니신가요?</span>
-                    </span>
-                    <span class="wireframe-text06">
-                      <span>회원가입 하러가기 !</span>
-                    </span>
-                  </div>
-                </div>
-                <div class="wireframe-group40">
-                  <div class="wireframe-group38">
-                    <div class="wireframe-group37">
-                      <span class="wireframe-text08">
-                        <span>User Number</span>
-                      </span>
-                      <span class="wireframe-text10">
-                        <span>사원번호 입력하기</span>
-                      </span>
-                      <img
-                        alt="Rectangle83602"
-                        src=""
-                        class="wireframe-rectangle8"
-                      />
-                      <div class="wireframe-message1">
-                        <img
-                          alt="user13662"
-                          src="public/external/user13662-euzl.svg"
-                          class="wireframe-user1"
-                        />
-                      </div>
-                    </div>
-                    <div class="wireframe-group36">
-                      <span class="wireframe-text12">
-                        <span>Password</span>
-                      </span>
-                      <img
-                        alt="Rectangle93602"
-                        src=""
-                        class="wireframe-rectangle9"
-                      />
-                      <div class="wireframe-group35">
-                        <span class="wireframe-text14">
-                          <span>비밀번호 입력하기</span>
-                        </span>
-                        <div class="wireframe-padlock1">
-                          <div class="wireframe-group">
-                            <div class="wireframe-group1">
-                              <img
-                                alt="Vector3602"
-                                src="public/external/vector3602-dgij.svg"
-                                class="wireframe-vector"
-                              />
-                            </div>
-                          </div>
-                          <div class="wireframe-group2">
-                            <div class="wireframe-group3">
-                              <img
-                                alt="Vector3602"
-                                src="public/external/vector3602-1mr.svg"
-                                class="wireframe-vector1"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                      <div class="wireframe-invisible1">
-                        <div class="wireframe-group4">
-                          <div class="wireframe-group5">
-                            <div class="wireframe-group6">
-                              <img
-                                alt="Vector3602"
-                                src="public/external/vector3602-7t9.svg"
-                                class="wireframe-vector2"
-                              />
-                              <img
-                                alt="Vector3602"
-                                src="public/external/vector3602-axha.svg"
-                                class="wireframe-vector3"
-                              />
-                              <img
-                                alt="Vector3602"
-                                src="public/external/vector3602-ubp8.svg"
-                                class="wireframe-vector4"
-                              />
-                            </div>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="wireframe-group24">
-                    <div class="wireframe-frame338">
-                      <img
-                        alt="Rectangle53602"
-                        src=""
-                        class="wireframe-rectangle5"
-                      />
-                      <span class="wireframe-text16">
-                        <span>다음에도 기억하기</span>
-                      </span>
-                    </div>
-                    <span class="wireframe-text18">
-                      <span>비밀번호를 잊으셨나요?</span>
-                    </span>
-                  </div>
-                  <div class="wireframe-group39">
-                    <span class="wireframe-text20"><span>로그인</span></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        <span class="login-subtitle">Password</span>
+        <input
+          type="password"
+          name="userPassword"
+          placeholder="비밀번호 입력하기"
+        />
+        <label for="remember-check">
+          <input type="checkbox" id="remember-check" />
+          다음에도 기억하기
+        </label>
+        <input type="submit" value="로그인" />
+      </form>
     </div>
   </body>
 </html>

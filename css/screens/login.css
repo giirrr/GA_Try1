@@ -1,0 +1,117 @@
+.login-wrapper {
+  width: 400px;
+  height: 350px;
+  padding: 40px;
+  box-sizing: border-box;
+}
+
+.login-wrapper > h2 {
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 31px;
+}
+.login-wrapper > h4 {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+  margin-bottom: 6px;
+}
+#blue_name {
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+  color: var(--blue);
+  margin-bottom: 52px;
+}
+#login-form > input {
+  width: 429px;
+  height: 48px;
+  padding: 0 10px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+  border: none;
+  padding: 15px 0px;
+  font-size: 18px;
+  margin-bottom: 25px;
+}
+/* 각각 밑줄 */
+#login-form input:not([type="submit"]) {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.4);
+  transition: border-color 0.3 ease-in-out;
+}
+
+#login-form > input::placeholder {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+  padding-left: 22px;
+}
+#login-form input:focus {
+  border-color: var(--blue);
+}
+/* 로그인 버튼 */
+#login-form > input[type="submit"] {
+  background-color: var(--blue);
+  margin-top: 54px;
+  color: #fff;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  border-radius: 32px;
+}
+
+/* 다음에도 기억하기 */
+#login-form > label {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Product Sans;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.15px;
+}
+#login-form > input[type="checkbox"] {
+  display: none;
+}
+/* 체크박스 칸 & 체크모양 */
+#login-form input[type="checkbox"] + label {
+  cursor: pointer;
+  padding-left: 26px;
+  background-image: url("checkbox.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+#login-form input[type="checkbox"]:checked + label {
+  background-image: url("checkbox-active.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+.login-subtitle {
+  color: #000;
+  font-feature-settings: "clig" off, "liga" off;
+  font-family: Product Sans;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  letter-spacing: 0.15px;
+  opacity: 0.6;
+}
