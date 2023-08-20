@@ -4,8 +4,11 @@
 /* Reset*/
 @import "reset.css";
 @import "variable.css";
+@import "calendarstyle.css";
 
 /* Components */
+@import "components/login.css";
 
 /*  Screens  */
 @import "screens/login.css";
+@import "screens/calendar.css";

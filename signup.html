@@ -7,7 +7,7 @@
     <!-- 웹사이트가 트위터로 공유될 때 카드 형식으로 표시되는 방식을 지정 -->
     <!-- "summary_large_image": 큰 이미지와 함께 요약을 포함하는 카드를 표시 -->
     <meta property="twitter:card" content="summary_large_image" />
-    <title>GA PlatForm1.0v</title>
+    <title>GA PlatForm.singup</title>
   </head>
   <body>
     <div class="login-form-container">
@@ -16,39 +16,45 @@
           <img src="img/01.jpeg" class="wireframe-image36449961" />
         </div>
       </div>
+      <!-- 이 거지같은 부분이랑 여기가 문제 인거 같으니 얘네를 조져 -->
       <div class="login-wrapper login-form-right-side">
         <div class="right-wrap">
-          <h2>로그인</h2>
-          <h4>아직 회원이 아니신가요?</h4>
-          <a href="signup.html">
-            <h4 id="blue_name">회원가입 하러가기 !</h4>
+          <h2>회원가입</h2>
+          <h4>이미 회원이신가요?</h4>
+          <a href="index.html">
+            <h4 id="blue_name">여기서 로그인하기 !</h4>
           </a>
           <form method="get" action="calendar.html" id="login-form">
             <span class="login-subtitle">User Number</span>
             <input
               type="text"
               name="userName"
-              placeholder="사원번호 입력하기"
+              placeholder="사원번호를 입력해주세요"
+              required
             />
             <span class="login-subtitle">Password</span>
             <input
               type="password"
               name="userPassword"
-              placeholder="비밀번호 입력하기"
+              placeholder="비밀번호를 입력해주세요"
+              required
             />
-            <div class="remember-container">
-              <div class="label-box">
-                <label for="remember-check">
-                  <input type="checkbox" id="remember-check" />
-                  다음에도 기억하기
-                </label>
-              </div>
-              <div class="remember-ask">
-                <a href="rememberpassword.html">
-                  <span class="forgot_password">비밀번호를 잊으셨나요?</span>
-                </a>
-              </div>
-            </div>
+            <span class="login-subtitle">본인 확인 질문</span>
+            <input
+              type="password"
+              name="userPassword"
+              placeholder="어린 시절 보물 제 1호는?"
+              required
+            />
+
+            <span class="login-subtitle">본인 확인 질문 답변</span>
+            <input
+              type="password"
+              name="userPassword"
+              placeholder="답변 입력하기"
+              required
+            />
+            <div class="remember-container"></div>
             <input type="submit" value="로그인" />
           </form>
         </div>
