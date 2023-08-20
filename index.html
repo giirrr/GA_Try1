@@ -10,26 +10,46 @@
     <title>GA PlatForm1.0v</title>
   </head>
   <body>
-    <div class="login-wrapper">
-      <h2>로그인</h2>
-      <h4>아직 회원이 아니신가요?</h4>
-      <h4 id="blue_name">회원가입 하러가기 !</h4>
-      <form method="get" action="calendar.html" id="login-form">
-        <span class="login-subtitle">User Number</span>
-        <input type="text" name="userName" placeholder="사원번호 입력하기" />
-
-        <span class="login-subtitle">Password</span>
-        <input
-          type="password"
-          name="userPassword"
-          placeholder="비밀번호 입력하기"
-        />
-        <label for="remember-check">
-          <input type="checkbox" id="remember-check" />
-          다음에도 기억하기
-        </label>
-        <input type="submit" value="로그인" />
-      </form>
+    <div class="login-form-container">
+      <div class="login-form-left-side">
+        <div class="left-wrap">
+          <img src="img/01.jpeg" class="wireframe-image36449961" />
+        </div>
+      </div>
+      <!-- 이 거지같은 부분이랑 여기가 문제 인거 같으니 얘네를 조져 -->
+      <div id="login-form-right-side " class="login-wrapper">
+        <div class="right-wrap">
+          <h2>로그인</h2>
+          <h4>아직 회원이 아니신가요?</h4>
+          <h4 id="blue_name">회원가입 하러가기 !</h4>
+          <form method="get" action="calendar.html" id="login-form">
+            <span class="login-subtitle">User Number</span>
+            <input
+              type="text"
+              name="userName"
+              placeholder="사원번호 입력하기"
+            />
+            <span class="login-subtitle">Password</span>
+            <input
+              type="password"
+              name="userPassword"
+              placeholder="비밀번호 입력하기"
+            />
+            <div class="remember-container">
+              <div class="label-box">
+                <label for="remember-check">
+                  <input type="checkbox" id="remember-check" />
+                  다음에도 기억하기
+                </label>
+              </div>
+              <div class="remember-ask">
+                <span class="forgot_password">비밀번호를 잊으셨나요?</span>
+              </div>
+            </div>
+            <input type="submit" value="로그인" />
+          </form>
+        </div>
+      </div>
     </div>
   </body>
 </html>

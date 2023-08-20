@@ -1,18 +1,74 @@
-.login-wrapper {
-  width: 400px;
-  height: 350px;
-  padding: 40px;
-  box-sizing: border-box;
+/* wireframe-container  */
+
+.page-login-container {
+  width: 1000vw;
+  height: 1000vh;
+  background: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.login-wrapper > h2 {
+/* =wireframe-frame337 */
+
+.login-form-container {
+  background: #f5f5f5;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  box-shadow: 10px black;
+  position: relative;
+}
+.login-form-left-side,
+.login-form-right-side {
+  position: absolute;
+}
+#login-form-right-side {
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+.right-wrap {
+  position: absolute;
+}
+.login-form-left-side {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: rgb(255, 255, 255);
+  position: relative;
+}
+.left-wrap {
+  position: absolute;
+}
+
+.wireframe-image36449961 {
+  width: 1024px;
+  height: 1024px;
+  max-height: 100vh;
+  object-fit: cover;
+}
+
+.login-wrapper {
+  width: 35%;
+  height: 100vh;
+
+  box-sizing: border-box;
+  background-color: var(--dl-color-default-white);
+}
+
+.right-wrap > h2 {
   font-size: 34px;
   font-style: normal;
   font-weight: 700;
   line-height: 36px;
   margin-bottom: 31px;
 }
-.login-wrapper > h4 {
+.right-wrap > h4 {
   font-feature-settings: "clig" off, "liga" off;
   font-family: Product Sans;
   font-size: 20px;
@@ -40,7 +96,7 @@
   box-sizing: border-box;
   margin-bottom: 16px;
   border: none;
-  padding: 15px 0px;
+
   font-size: 18px;
   margin-bottom: 25px;
 }
@@ -78,6 +134,7 @@
 }
 
 /* 다음에도 기억하기 */
+.forgot_password,
 #login-form > label {
   color: #000;
   font-feature-settings: "clig" off, "liga" off;
@@ -88,6 +145,7 @@
   line-height: 24px; /* 150% */
   letter-spacing: 0.15px;
 }
+
 #login-form > input[type="checkbox"] {
   display: none;
 }
@@ -114,4 +172,11 @@
   line-height: 24px; /* 120% */
   letter-spacing: 0.15px;
   opacity: 0.6;
+  display: flex;
+  flex-direction: column;
+}
+.remember-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
