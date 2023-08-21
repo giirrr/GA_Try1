@@ -56,7 +56,7 @@
   align-items: center;
   justify-content: center;
 }
-.wireframe-frame314 {
+.bar-title-bluebox {
   width: 24px;
   height: 25px;
   display: flex;
@@ -79,14 +79,14 @@
   text-align: left;
   line-height: 24px;
 }
-.wireframe-buttons-group {
+.button-bar-group {
   display: flex;
   align-self: stretch;
   align-items: center;
   flex-shrink: 0;
   justify-content: center;
 }
-.wireframe-button {
+.wireframe-button-wrap {
   gap: 16px;
   height: 48px;
   display: flex;
@@ -95,7 +95,7 @@
   flex-shrink: 0;
   justify-content: center;
 }
-.wireframe-iconjamiconsoutlinelogoscog {
+.wireframe-button {
   width: 24px;
   height: 24px;
   display: flex;
@@ -155,7 +155,7 @@
   text-align: center;
   line-height: 139.9999976158142%;
 }
-.wireframe-field {
+.search-bar {
   gap: 8px;
   display: flex;
   padding: 12px 16px;
@@ -178,7 +178,7 @@
   text-align: left;
   line-height: 24px;
 }
-.wireframe-menu {
+.select-menu-bar {
   display: flex;
   flex-grow: 1;
   align-self: stretch;

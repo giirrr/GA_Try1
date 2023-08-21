@@ -13,3 +13,5 @@
 @import "screens/login.css";
 @import "screens/calendar.css";
 @import "screens/signup.css";
+
+@import "components/homebar.css";
