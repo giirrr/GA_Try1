@@ -1220,24 +1220,14 @@
   border-width: 3px 1.5px 1.5px 3px;
   background-color: rgba(255, 255, 255, 1);
 }
-.wireframe-frame336 {
-  width: 145.21263122558594px;
-  height: 32.26947021484375px;
-  display: flex;
-  overflow: hidden;
-  position: relative;
-  align-items: flex-start;
-  flex-shrink: 0;
-  border-color: rgba(71, 84, 102, 1);
-  border-style: solid;
-  border-width: 1.5px 1.5px 1.5px 3px;
-  background-color: rgba(255, 255, 255, 1);
-}
+
 .wireframe-unstarted {
+  top: 3.73046875px;
+  left: 4px;
   width: 24px;
   height: 24px;
   display: flex;
-  position: relative;
+  position: absolute;
   align-items: flex-start;
   flex-shrink: 0;
 }
@@ -1253,8 +1243,11 @@
   border-radius: 6px;
 }
 .wireframe-text062 {
-  color: rgba(0, 0, 0, 1);
+  top: 3.73046875px;
+  left: 36px;
+  color: var(--dl-color-gray-500);
   height: auto;
+  position: absolute;
   text-align: left;
   line-height: 24px;
 }
@@ -1322,7 +1315,7 @@
   background-color: rgba(255, 255, 255, 1);
 }
 .wireframe-completed02 {
-  top: 3.73046875px;
+  top: 6px;
   left: 4px;
   width: 24px;
   height: 24px;
@@ -1331,24 +1324,25 @@
   align-items: flex-start;
   flex-shrink: 0;
 }
-.wireframe-completed03 {
-  top: 6.782608985900879px;
-  left: 5.217391014099121px;
-  width: 14px;
-  height: 10px;
-  position: absolute;
-}
-.wireframe-rectangle2 {
+
+.calbox {
   top: 0px;
   left: 0px;
+  width: 18px;
+  height: 18px;
+  position: absolute;
+}
+.wireframe-completed03 {
+  top: 6px;
+  left: 4px;
   width: 24px;
   height: 24px;
+  display: flex;
   position: absolute;
-  border-color: rgba(196, 196, 196, 1);
-  border-style: solid;
-  border-width: 3px;
-  border-radius: 6px;
+  align-items: flex-start;
+  flex-shrink: 0;
 }
+
 .wireframe-text066 {
   top: 3.73046875px;
   left: 36px;
