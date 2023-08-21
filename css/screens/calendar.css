@@ -19,7 +19,7 @@
 .wireframe-frame317 {
   top: 0px;
   left: 0px;
-  width: 1400px;
+  width: 1500px;
   height: 1859px;
   display: flex;
   position: absolute;
@@ -172,8 +172,8 @@
   width: 24px;
   height: 24px;
 }
-.wireframe-text004 {
-  color: var(--dl-color-coolgray-60);
+.search-bar > input {
+  color: var(--dl-color-coolgray-10);
   height: auto;
   flex-grow: 1;
   text-align: left;
